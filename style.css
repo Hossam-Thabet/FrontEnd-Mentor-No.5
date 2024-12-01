@@ -1,0 +1,61 @@
+/* Root */
+:root {
+  --clr-dark-cyan: hsl(158, 36%, 37%) ;
+  --clr-Cream: hsl(30, 38%, 92%);
+  --clr-Very-dark-blue: hsl(212, 21%, 14%);
+  --clr-Dark-grayish-blue: hsl(228, 12%, 48%);
+}
+
+
+/* reset */
+  
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+  
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+}
+  
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+  
+input, button, textarea, select {
+  font: inherit;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
