@@ -52,16 +52,16 @@ body {
 }
 
 main {
-  width: 327px;
+  width: 343px;
 }
 
 
 .card {
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   overflow: hidden;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1440px) {
   main {
     width: 500px;
   }
@@ -75,12 +75,52 @@ main {
   
 }
 
-
 .card__content {
+  display: grid;
   background-color: white;
-  
+  padding: 1.75rem;
+  font-family: monserrat , sans-serif;
+
 } 
 
+.card__category {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.5rem;
+}
+
+.card__title {
+font-family: fraunces , sans-serif;
+font-size: 2rem;
+line-height: 1;
+}
+
+.card__description {
+font-size: 1rem;
+}
+
+.current-price {
+  font-family: fraunces , sans-serif;
+}
+
+.flex-group {
+  display: flex;
+}
+
+.current-price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--clr-dark-cyan);
+}
+
+button {
+ background-color: var(--clr-dark-cyan);
+ color: white;
+}
+
+button::before {
+  content:url(images/icon-cart.svg);
+}
 
 .attribution { 
   font-size: 11px; 
@@ -90,6 +130,7 @@ main {
   left: 0;
   right: 0;
 }
+
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
