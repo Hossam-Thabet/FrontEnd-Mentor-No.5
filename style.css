@@ -63,16 +63,20 @@ main {
 
 @media (min-width: 1440px) {
   main {
-    width: 500px;
+    width: 632px;
+  }
+  .card__content {
+    width: 352px;
+    padding: 0rem;
   }
   .card {
     display: flex;
     flex-direction: row;
   }
-  img {
-    width: 200px;
-  }
   
+  img {
+    width: 280px;
+  }
 }
 
 .card__content {
@@ -87,7 +91,7 @@ main {
 .card__category {
   text-transform: uppercase;
   font-size: 0.75rem;
-  letter-spacing: 0.25rem;
+  letter-spacing: 5px;
 }
 
 .card__title {
