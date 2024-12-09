@@ -53,55 +53,39 @@ body {
 }
 
 .card {
-  
   border-radius: 0.75rem;
   overflow: hidden;
 }
-
-
-
 @media (min-width: 1440px) {
-
   .card {
     display: flex;
     flex-direction: row;
-    /* width: 632px; */
-  }
-
-  .card__content {
-    width: 350px;
-    padding: 0rem;
-  }
-  
-  img {
-    width: 280px;
-  }
+  } 
 }
 
 img {
-  width: 343px;
+  width: 340px;
 }
 @media (min-width: 1440px) {
-  .card__content {
-    width: 350px;
-    padding: 0rem;
-    background-color: aqua;
+  img {
+    width: 300px;
   }
-
 }
 
-
 .card__content {
-  width: 343px;
+  width: 340px;
   display: grid;
   background-color: white;
   padding: 1.5rem;
   font-family: montserrat , sans-serif ;
   color: var(--clr-Dark-grayish-blue);
-
 }
-
-
+@media (min-width: 1440px) {
+  .card__content {
+    width: 300px;
+    padding: 2rem;
+  }
+}
 
 .card__category {
   text-transform: uppercase;
@@ -151,7 +135,7 @@ button {
  justify-content: center;
  align-items: center;
  gap: 0.5rem;
- font-size: .875rem ;
+ font-size: 1rem ;
  font-weight: 600;
  border-radius: 0.5rem;
  margin-top: 0.75rem;
